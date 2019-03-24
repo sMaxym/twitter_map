@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_cc0029ba41e1492daefbf2389c4db756 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_cc0029ba41e1492daefbf2389c4db756" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_cc0029ba41e1492daefbf2389c4db756 = L.map(
+        'map_cc0029ba41e1492daefbf2389c4db756', {
+        center: [0, 0],
+        zoom: 1,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_59c01000800b4103993c17d18fc8992f = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_cc0029ba41e1492daefbf2389c4db756);
+    
+            var feature_group_a25e34405782491ebb660ebc448ce60a = L.featureGroup(
+                ).addTo(map_cc0029ba41e1492daefbf2389c4db756);
+        
+    
+            var circle_marker_4c4c9f22dbe64bf5b21138eb2b51dd2e = L.circleMarker(
+                [44.8178131, 20.4568974],
+                {
+  "bubblingMouseEvents": true,
+  "color": "white",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_a25e34405782491ebb660ebc448ce60a);
+            
+    
+            var popup_8244df89e88b4f55b43a15493bff2a4b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b79d7a0a729e4a22b6a98c2575df9e00 = $(`<div id="html_b79d7a0a729e4a22b6a98c2575df9e00" style="width: 100.0%; height: 100.0%;">Александар Вучић</div>`)[0];
+                popup_8244df89e88b4f55b43a15493bff2a4b.setContent(html_b79d7a0a729e4a22b6a98c2575df9e00);
+            
+
+            circle_marker_4c4c9f22dbe64bf5b21138eb2b51dd2e.bindPopup(popup_8244df89e88b4f55b43a15493bff2a4b)
+            ;
+
+            
+        
+    
+            var circle_marker_df35c1a113994f25a64e7112909d7597 = L.circleMarker(
+                [52.7861111, 20.6],
+                {
+  "bubblingMouseEvents": true,
+  "color": "white",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_a25e34405782491ebb660ebc448ce60a);
+            
+    
+            var popup_1eceba8f3fd84660bf99ac4e6c44b6e9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a0cb9638dc5343b48585e705042bdcd8 = $(`<div id="html_a0cb9638dc5343b48585e705042bdcd8" style="width: 100.0%; height: 100.0%;">Andrzej Duda</div>`)[0];
+                popup_1eceba8f3fd84660bf99ac4e6c44b6e9.setContent(html_a0cb9638dc5343b48585e705042bdcd8);
+            
+
+            circle_marker_df35c1a113994f25a64e7112909d7597.bindPopup(popup_1eceba8f3fd84660bf99ac4e6c44b6e9)
+            ;
+
+            
+        
+    
+            var circle_marker_cb94508fc61e4f1fa4cd3e9fc5dae014 = L.circleMarker(
+                [48.2083537, 16.3725042],
+                {
+  "bubblingMouseEvents": true,
+  "color": "white",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_a25e34405782491ebb660ebc448ce60a);
+            
+    
+            var popup_cc49107ad9914b35a2956d7855872c5e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_94136e4634324b2aa4aff76540b685c9 = $(`<div id="html_94136e4634324b2aa4aff76540b685c9" style="width: 100.0%; height: 100.0%;">Sebastian Kurz</div>`)[0];
+                popup_cc49107ad9914b35a2956d7855872c5e.setContent(html_94136e4634324b2aa4aff76540b685c9);
+            
+
+            circle_marker_cb94508fc61e4f1fa4cd3e9fc5dae014.bindPopup(popup_cc49107ad9914b35a2956d7855872c5e)
+            ;
+
+            
+        
+</script>
